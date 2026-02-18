@@ -1,0 +1,16 @@
+# IDE & System
+.DS_Store
+.idea/
+.vscode/
+*.iml
+target/
+node_modules/
+dist/
+
+# Sentinel-K Specific
+# 排除总纲源文件（保留在本地）
+【总纲】Sentinel-K_开发规约手册.md
+
+# Sensitive
+.env
+secret.key
